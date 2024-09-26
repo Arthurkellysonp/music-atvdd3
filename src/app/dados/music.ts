@@ -8,24 +8,25 @@ type Music = {
 
 export const musics: Music[] = [
     {
-        name: "musica 01",
-        author: "unha pintada",
-        description: "musica 01",
-        urlAudio: "audios/audio1.mp3",
-        image: "/imagens/image01.jpg"
-    },
-    {
-        name: "musica 02",
-        author: "Japazin",
-        description: "musica 02",
-        urlAudio: "audios/audio2.mp3",
-        image: "/imagens/image02.jpg"
-    },
-    {
-        name: "musica 03",
-        author: "calcinha preta",
-        description: "musica 03",
+       
+        name: "Dois Amores Duas Paixoes",
+        author: "Calcinha Preta",
+        description: "Dois Amores Duas Paixoes",
         urlAudio: "audios/audio3.mp3",
-        image: "/imagens/image03.jpg"
+        image: "imagens/image03.jpg"
+    },
+    {
+        name: "Bateu a Saudade",
+        author: "Japazin",
+        description: "Bateu a Saudade",
+        urlAudio: "audios/audio2.mp3",
+        image: "imagens/image02.jpg"
+    },
+    {
+        name: "Alo Policia",
+        author: "unha pintada",
+        description: "Alo Policia",
+        urlAudio: "audios/audio1.mp3",
+        image: "imagens/image01.jpg"
     }
-]
+];
